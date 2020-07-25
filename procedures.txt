@@ -21,6 +21,11 @@ python manage.py runserver
 python manage.py startapp app_name
 python manage.py runserver
 
+// create superuser as admin for managing the project database
+python manage.py createsuperuser
+To access the admin
+http://localhost:8000/admin
+
 //add lines in settings.py
 TEMPLATE_DIR = os.path.join(BASE_DIR,'templates')
 STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),) // for image files
