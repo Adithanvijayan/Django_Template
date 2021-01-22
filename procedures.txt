@@ -1,28 +1,28 @@
 
 // Create Virtual Environment 
-pip install virtualenv
+pip3 install virtualenv
 virtualenv --version
 virtualenv env_name
 source env_name/bin/activate
 
 // Install Django and Create a project
-python -m pip install Django
-python -m django --version
+python3 -m pip install Django
+python3 -m django --version
 django-admin startproject Project_Name
 
 // Navigate to Project Folder
 cd Project_Name/
 
-python manage.py makemigrations
-python manage.py migrate
-python manage.py runserver
+python3 manage.py makemigrations
+python3 manage.py migrate
+python3 manage.py runserver
 
 // create a application for project
-python manage.py startapp app_name
-python manage.py runserver
+python3 manage.py startapp app_name
+python3 manage.py runserver
 
 // create superuser as admin for managing the project database
-python manage.py createsuperuser
+python3 manage.py createsuperuser
 To access the admin
 http://localhost:8000/admin
 
