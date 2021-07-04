@@ -69,3 +69,7 @@ class table_name(models.Model):
 //Register the tables in admin.py inside the app_name folder
 from .models import table_name
 admin.site.register(table_name)
+
+python3 manage.py makemigrations
+python3 manage.py migrate
+python3 manage.py runserver
