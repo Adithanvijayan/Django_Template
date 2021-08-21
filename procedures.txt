@@ -76,3 +76,6 @@ python3 manage.py runserver
 
 // To host in vercel
 Follow this steps: https://jay-hale.medium.com/django-on-vercel-in-30-minutes-e69eed15b616
+
+// For mongoDB connection
+Follow this steps: https://jacobsood.medium.com/integrating-mongodb-atlas-with-django-using-djongo-962dfd1513eb
