@@ -93,3 +93,20 @@ Follow this steps: https://jacobsood.medium.com/integrating-mongodb-atlas-with-d
 
 // To get custom domain names
 https://domains.google.com/
+
+// To host in heroku
+https://www.heroku.com/
+Follow this steps: https://codeburst.io/deploy-your-django-project-for-free-140d73a2c76b
+https://www.linkedin.com/pulse/django-app-deployment-heroku-shivam-jha/
+https://youtu.be/GMbVzl_aLxM
+
+pip install django-heroku
+pip install gunicorn
+
+Add Procfile file -> web: gunicorn myproject.wsgi
+
+heroku create mydomainname
+heroku git:remote -a mydomainname
+
+heroku config:set DISABLE_COLLECTSTATIC=1
+git push heroku main 
