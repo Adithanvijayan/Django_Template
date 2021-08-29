@@ -78,6 +78,11 @@ pip3 freeze > requirements.txt  # Python3
 
 pip3 install -r requirements.txt
 
+// For SSH Key Generation in MAC
+ssh-keygen
+cd ~/.ssh/
+cat id_rsa.pub
+
 // To host in pythonanywhere
 https://www.pythonanywhere.com/
 Follow this steps: https://youtu.be/Y4c4ickks2A
