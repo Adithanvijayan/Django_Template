@@ -82,6 +82,16 @@ pip3 install -r requirements.txt
 https://www.pythonanywhere.com/
 Follow this steps: https://youtu.be/Y4c4ickks2A
 
+git clone 
+mkvirtualenv --python=/usr/bin/python3.8 env_name
+pip3 install django
+
+In settings.py, ALLOWED_HOSTS = ['pythonanywhere.com']
+comment -> STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
+At last, STATIC_ROOT = '/home/Name/Project/static/'
+
+python3 manage.py collectstatic
+
 // To host in vercel
 https://vercel.com/
 Follow this steps: https://jay-hale.medium.com/django-on-vercel-in-30-minutes-e69eed15b616
