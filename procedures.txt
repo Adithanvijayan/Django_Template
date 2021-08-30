@@ -131,3 +131,7 @@ Follow this steps: https://andreyazimov.medium.com/how-free-heroku-really-works-
 https://www.cloudflare.com/en-in/ssl/
 https://youtu.be/Y4iHXhRkpO4
 https://pushalert.co/blog/free-ssl-easy-setup-guide/
+
+// To prevent heroku from sleeping
+https://elements.heroku.com/addons/newrelic
+For heroku domain : http://kaffeine.herokuapp.com/
