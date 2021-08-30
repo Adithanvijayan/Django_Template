@@ -125,3 +125,9 @@ heroku git:remote -a mydomainname
 
 heroku config:set DISABLE_COLLECTSTATIC=1
 git push heroku main 
+
+// For free hosting with custom domain and SSL certificate in heroku
+Follow this steps: https://andreyazimov.medium.com/how-free-heroku-really-works-and-how-to-get-maximum-from-it-daa53f2b3c57
+https://www.cloudflare.com/en-in/ssl/
+https://youtu.be/Y4iHXhRkpO4
+https://pushalert.co/blog/free-ssl-easy-setup-guide/
