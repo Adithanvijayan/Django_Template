@@ -120,6 +120,7 @@ pip install gunicorn
 
 Add Procfile file -> web: gunicorn myproject.wsgi
 
+heroku login
 heroku create mydomainname
 heroku git:remote -a mydomainname
 
