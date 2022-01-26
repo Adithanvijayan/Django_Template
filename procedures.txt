@@ -5,6 +5,10 @@ virtualenv --version
 virtualenv env_name
 source env_name/bin/activate
 
+or
+
+python3 -m virtualenv env_name
+
 // Install Django and Create a project
 python3 -m pip install Django==3.0.8
 python3 -m django --version
