@@ -108,6 +108,16 @@ At last, STATIC_ROOT = '/home/Name/Project/static/'
 
 python3 manage.py collectstatic
 
+To map the static images from the database
+In files tab, Add static folder parallel to project folder 
+In Web tab, map Static files 
+/static/ -> /home/Name/Project/static
+/media/ -> /home/Name/Project/media
+/static/ -> /home/ThulirUdhayam/static
+
+For security 
+Enable -> Force HTTPS
+
 To find the disk storage in pythonanywhere
 du -hs /tmp ~/.[!.]* ~/* | sort -h
 
